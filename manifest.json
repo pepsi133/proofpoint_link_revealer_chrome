@@ -2,10 +2,10 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
 	"manifest_version":2,
-	"name":"Link Revealer for Gmail",
-	"short_name":"Link Revealer for Gmail",
+	"name":"Proofpoint URL Revealer for Gmail",
+	"short_name":"Proofpoint URL Revealer for Gmail",
 	"version":"0.303",
-	"description":"Show URLs when you hover over links when using Gmail. (With Proofpoint URL Defence Support)",
+	"description":"Show destination URLs in Gmail when hovering over Proofpoint modified hyperlinks",
 	"background":{
 		"scripts":[
 			"js/jquery-2.1.1.min.js",

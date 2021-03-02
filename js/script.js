@@ -9,8 +9,9 @@ jQuery(function($){
 					t = t.replace(/_/g,'%2F'),
 					t2 = $.url.decode(t.slice(2)),
 					uri2 = $.url.parse(t2),
-					text = (uri.host == 'urldefense.proofpoint.com') ? uri2.source.replace(uri2.host, '<span style="color:' + r.domaincolor + '">' + uri2.host + '</span>') : uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>') ;
-			        //text = uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>');
+					text = (uri.host == 'urldefense.proofpoint.com') ? uri2.source.replace(uri2.host, '<span style="color:' + r.domaincolor + '">' +  uri2.host + '</span>') : uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>'),
+               text = text.replace(/&d=.*$/, '');
+			      //text = uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>');
                 // Check if is a tooltip or not
                 if (r.istooltip) {
                     position = {
@@ -32,7 +33,7 @@ jQuery(function($){
                     }
                 }
                 // Is the target a new window?
-                if ( $(o).attr('target') == '_blank' ) text = '<i class="fa fa-external-link-square" style="padding-right: 5px;"></i>' + text;
+                if ( $(o).attr('target') == '_blank' ) text = '<i style="padding-right: 5px;"></i>' + text;
                 // Show the qtip
                 $(o).qtip({
                     overwrite: false,
