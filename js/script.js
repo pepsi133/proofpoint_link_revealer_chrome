@@ -9,9 +9,7 @@ jQuery(function($){
 					t = t.replace(/_/g,'%2F'),
 					t2 = $.url.decode(t.slice(2)),
 					uri2 = $.url.parse(t2),
-					text = (uri.host == 'urldefense.proofpoint.com') ? uri2.source.replace(uri2.host, '<span style="color:' + r.domaincolor + '">' +  uri2.host + '</span>') : uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>'),
-               text = text.replace(/&d=.*$/, '');
-			      //text = uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>');
+					text = (uri.host == 'urldefense.proofpoint.com') ? uri2.source.replace(uri2.host, '<span style="color:' + r.domaincolor + '">' +  uri2.host + '</span>').replace(/&d=.*$/, '') : uri.source.replace(uri.host, '<span style="color:' + r.domaincolor + '">' + uri.host + '</span>');
                 // Check if is a tooltip or not
                 if (r.istooltip) {
                     position = {

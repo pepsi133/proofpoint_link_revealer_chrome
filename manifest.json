@@ -25,8 +25,7 @@
 		  	"https://mail.google.com/*"
 		  ],
 		  "permissions":[
-		  	"http://*/*",
-		  	"https://*/*"
+		  	"https://mail.google.com/"
 		  ],
 		  "css": [
 		  	"css/jquery.qtip.min.css",
