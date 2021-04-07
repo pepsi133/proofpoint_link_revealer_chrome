@@ -31,7 +31,7 @@ jQuery(function($){
                     }
                 }
                 // Is the target a new window?
-                if ( $(o).attr('target') == '_blank' ) text = '<i style="padding-right: 5px;"></i>' + text;
+                if ( $(o).attr('target') == '_blank' ) text = '<i class="fas fa-external-link-alt" style="padding-right: 5px;"></i>' + text;
                 // Show the qtip
                 $(o).qtip({
                     overwrite: false,
