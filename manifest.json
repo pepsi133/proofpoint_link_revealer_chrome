@@ -2,7 +2,7 @@
 	"manifest_version":2,
 	"name":"Proofpoint URL Revealer for Gmail",
 	"short_name":"Proofpoint URL Revealer for Gmail",
-	"version":"0.303",
+	"version":"0.500",
 	"description":"Show destination URLs in Gmail when hovering over Proofpoint modified hyperlinks",
 	"background":{
 		"scripts":[
