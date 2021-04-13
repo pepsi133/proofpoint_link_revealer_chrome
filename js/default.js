@@ -1,7 +1,7 @@
 var DefaultOptions = {
 	timeout:{
 		label:'timeout',
-		value:1000
+		value:500
 	},
 	istooltip:{
 		label:'istooltip',

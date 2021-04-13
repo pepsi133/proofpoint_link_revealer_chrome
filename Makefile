@@ -3,7 +3,7 @@ PACKAGE := proofpoint_url_revealer_gmail
 
 ZIP := $(PACKAGE)-$(VERSION).zip
 
-DEPS := css fonts js LICENSE background.js manifest.json options.html
+DEPS := css webfonts js LICENSE background.js manifest.json options.html
 FILES := $(shell find $(DEPS) -type f -print)
 
 all: out/$(ZIP)

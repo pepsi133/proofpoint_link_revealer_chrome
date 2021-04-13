@@ -6,7 +6,7 @@
 	"description":"Show destination URLs in Gmail when hovering over Proofpoint modified hyperlinks",
 	"background":{
 		"scripts":[
-			"js/jquery-2.1.1.min.js",
+			"js/jquery-2.1.4.min.js",
 			"js/default.js",
 			"background.js"
 		]
@@ -31,7 +31,7 @@
 		  	"css/solid.min.css"
 		  ],
 		  "js": [
-		  	"js/jquery-2.1.1.min.js",
+		  	"js/jquery-2.1.4.min.js",
 		  	"js/jquery.qtip.min.js",
 		  	"js/jquery.urldecoder.min.js",
 		  	"js/script.js"
