@@ -1,3 +1,9 @@
+Main purpose of this fork is being able to fully control the code - due to my personal/work reasons. I am not planning to use it for any gains or purely work reasons.
+I am just not including any extensions to chrome, which I am not able to verify source code in 100%.
+
+It is possible i will be adjusting some look&feel of this extension or limiting the domains it works on. Nothing more.
+Once I find a way to contact original author I will request approval for above use of this code.
+
 AUTHOR: Julian Xhokaxhiu, Simone Righini, Luca Conti, Matt Wilder
 VERSION: 0.4
 DESCRIPTION: Show URLs when you hover over links into a webpage.
